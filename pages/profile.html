@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+
+            <header>
+                <div class="header-section flex justify-between items-center">
+                    <div class="header-section__items">
+                        <a href="../index.html" class="header-section__img-container">
+                            <img src="../assets/img/logo.svg">
+                        </a>
+                    </div>
+                    <div class="header-section__items flex">
+                        <a href="#" class="header-section__item item-search flex justify-center md:hidden">
+                            <img src="../assets/img/search.svg">
+                        </a>
+                        <div class="header-section__item item-search relative hidden md:block">
+                            <img src="../assets/img/search.svg" class="absolute">
+                            <input type="text" placeholder="Поиск">
+                        </div>
+                        <a href="#" class="header-section__item item-mailing items-center flex">
+                            <img src="../assets/img/mailing.svg">
+                            <span class="hidden md:block">Рассылка</span>
+                        </a>
+                        <a href="#" class="header-section__item item-profile flex items-center">
+                            <img src="../assets/img/profile.svg">
+                            <span class="hidden md:block">Профиль</span>
+                        </a>
+                    </div>
+                </div>
+                    
+            </header>
+        
+            <section class="mt-10 mb-12">
+                <a href="../index.html" class="btn-return btn flex text-white w-fit mb-[200px]">
+                    <img src="../assets/img/return.svg">
+                    <span class="ml-2">Вернуться</span>
+                </a>
+                
+                <div class="profile-wrapper bg-[#E1EDFF] rounded-[30px] flex flex-col items-center px-[30px]">
+                    <div class="profile-wrapper__img-container mt-[-85px] lg:mt-[-195px] max-w-[250px] sm:max-w-[300px] lg:max-w-[400px] mb-[50px]">
+                        <img src="../assets/img/img-profile.png" alt="img-profile">
+                    </div>
+                    <span class="text-[32px] leading-[38px] font-semibold text-[#3F4FC4] text-center">Давыдов Дмитрий Егорович</span>
+                    <div class="profile-wrapper__info mt-[50px] w-full flex justify-around flex-wrap">
+                        <div class="profile-wrapper__item mr-[15px] mb-[10px]">
+                            <div class="profile-wrapper__item-wrap flex bg-[#B6D3FF] rounded-[50px] text-[#3F4FC4] text-[24px] justify-center items-center py-[16px] px-[26px] max-h-[70px] mb-[15px]">
+                                <div class="profile-wrapper__item-img max-w-full mr-[5px]">
+                                    <img src="../assets/img/public.svg" alt="">
+                                </div>
+                                <p>590</p>
+                            </div>
+                            <span class="text-[#3F4FC4] text-[16px] font-semibold ">Кол-во публикаций</span>
+                        </div>
+                        <div class="profile-wrapper__item mr-[15px] mb-[10px]">
+                            <div class="profile-wrapper__item-wrap flex bg-[#B6D3FF] rounded-[50px] text-[#3F4FC4] text-[24px] justify-center items-center py-[16px] px-[26px] max-h-[70px] mb-[15px]">
+                                <div class="profile-wrapper__item-img max-w-full mr-[5px]">
+                                    <img src="../assets/img/watch.svg" alt="">
+                                </div>
+                                <p>590</p>
+                            </div>
+                            <span class="text-[#3F4FC4] text-[16px] font-semibold ">Просмотры публикаций</span>
+                        </div>
+                        <div class="profile-wrapper__item mr-[15px] mb-[10px]">
+                            <div class="profile-wrapper__item-wrap flex bg-[#B6D3FF] rounded-[50px] text-[#3F4FC4] text-[24px] justify-center items-center py-[16px] px-[26px] max-h-[70px] mb-[15px]">
+                                <div class="profile-wrapper__item-img max-w-full mr-[5px]">
+                                    <img src="../assets/img/likes.svg" alt="">
+                                </div>
+                                <p>590</p>
+                            </div>
+                            <span class="text-[#3F4FC4] text-[16px] font-semibold ">Лайки</span>
+                        </div>
+                    </div>
+                    <article class="mt-20 mb-[40px]">
+                        <div class="article-wrapper">
+                            <div class="article-wrapper__list grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-5 justify-items-center">
+
+                                <div class="article-wrapper__item relative">
+                                    <a href="../pages/article.html" class="h-full w-full absolute z-10"></a>
+                                    <div class="article-wrapper__item-img">
+                                        <img src="../assets/img/article-img.png" alt="img">
+                                    </div>
+                                    <div class="article-wrapper__item-content absolute bottom-0 text-white">
+                                        <div class="article-wrapper__item-title text-xl">Подзаголовочек пока в одну строчку</div>
+                                        <div class="article-wrapper__item-desc">Жизнь в большом городе зачастую накладывает на людей очень много обязательств, которые многим мешают планировать свое время. Поэт...</div>
+                                        <hr>
+                                        <div class="article-wrapper__item-footer flex justify-between">
+                                            <a class="article-wrapper__item-btn underline">Читать дальше</a>
+                                            <div class="article-wrapper__item-date">23-05-22 13:53:39</div>
+                                        </div>
+                                    </div>                                                         
+                                </div>
+                                <div class="article-wrapper__item relative">
+                                    <a href="../pages/article.html" class="h-full w-full absolute z-10"></a>
+                                    <div class="article-wrapper__item-img">
+                                        <img src="../assets/img/article-img.png" alt="img">
+                                    </div>
+                                    <div class="article-wrapper__item-content absolute bottom-0 text-white">
+                                        <div class="article-wrapper__item-title text-xl">Подзаголовочек пока в одну строчку</div>
+                                        <div class="article-wrapper__item-desc">Жизнь в большом городе зачастую накладывает на людей очень много обязательств, которые многим мешают планировать свое время. Поэт...</div>
+                                        <hr>
+                                        <div class="article-wrapper__item-footer flex justify-between">
+                                            <a class="article-wrapper__item-btn underline">Читать дальше</a>
+                                            <div class="article-wrapper__item-date">23-05-22 13:53:39</div>
+                                        </div>
+                                    </div>                                                         
+                                </div>
+                                <div class="article-wrapper__item relative">
+                                    <a href="../pages/article.html" class="h-full w-full absolute z-10"></a>
+                                    <div class="article-wrapper__item-img">
+                                        <img src="../assets/img/article-img.png" alt="img">
+                                    </div>
+                                    <div class="article-wrapper__item-content absolute bottom-0 text-white">
+                                        <div class="article-wrapper__item-title text-xl">Подзаголовочек пока в одну строчку</div>
+                                        <div class="article-wrapper__item-desc">Жизнь в большом городе зачастую накладывает на людей очень много обязательств, которые многим мешают планировать свое время. Поэт...</div>
+                                        <hr>
+                                        <div class="article-wrapper__item-footer flex justify-between">
+                                            <a class="article-wrapper__item-btn underline">Читать дальше</a>
+                                            <div class="article-wrapper__item-date">23-05-22 13:53:39</div>
+                                        </div>
+                                    </div>                                                         
+                                </div>
+                                <div class="article-wrapper__item relative">
+                                    <a href="../pages/article.html" class="h-full w-full absolute z-10"></a>
+                                    <div class="article-wrapper__item-img">
+                                        <img src="../assets/img/article-img.png" alt="img">
+                                    </div>
+                                    <div class="article-wrapper__item-content absolute bottom-0 text-white">
+                                        <div class="article-wrapper__item-title text-xl">Подзаголовочек пока в одну строчку</div>
+                                        <div class="article-wrapper__item-desc">Жизнь в большом городе зачастую накладывает на людей очень много обязательств, которые многим мешают планировать свое время. Поэт...</div>
+                                        <hr>
+                                        <div class="article-wrapper__item-footer flex justify-between">
+                                            <a class="article-wrapper__item-btn underline">Читать дальше</a>
+                                            <div class="article-wrapper__item-date">23-05-22 13:53:39</div>
+                                        </div>
+                                    </div>                                                         
+                                </div>
+                                <div class="article-wrapper__item relative">
+                                    <a href="../pages/article.html" class="h-full w-full absolute z-10"></a>
+                                    <div class="article-wrapper__item-img">
+                                        <img src="../assets/img/article-img.png" alt="img">
+                                    </div>
+                                    <div class="article-wrapper__item-content absolute bottom-0 text-white">
+                                        <div class="article-wrapper__item-title text-xl">Подзаголовочек пока в одну строчку</div>
+                                        <div class="article-wrapper__item-desc">Жизнь в большом городе зачастую накладывает на людей очень много обязательств, которые многим мешают планировать свое время. Поэт...</div>
+                                        <hr>
+                                        <div class="article-wrapper__item-footer flex justify-between">
+                                            <a class="article-wrapper__item-btn underline">Читать дальше</a>
+                                            <div class="article-wrapper__item-date">23-05-22 13:53:39</div>
+                                        </div>
+                                    </div>                                                         
+                                </div>
+                                <div class="article-wrapper__item relative">
+                                    <a href="../pages/article.html" class="h-full w-full absolute z-10"></a>
+                                    <div class="article-wrapper__item-img">
+                                        <img src="../assets/img/article-img.png" alt="img">
+                                    </div>
+                                    <div class="article-wrapper__item-content absolute bottom-0 text-white">
+                                        <div class="article-wrapper__item-title text-xl">Подзаголовочек пока в одну строчку</div>
+                                        <div class="article-wrapper__item-desc">Жизнь в большом городе зачастую накладывает на людей очень много обязательств, которые многим мешают планировать свое время. Поэт...</div>
+                                        <hr>
+                                        <div class="article-wrapper__item-footer flex justify-between">
+                                            <a class="article-wrapper__item-btn underline">Читать дальше</a>
+                                            <div class="article-wrapper__item-date">23-05-22 13:53:39</div>
+                                        </div>
+                                    </div>                                                         
+                                </div>
+                            </div>
+                        </div>
+                    </article>         
+                </div>
+
+            </section>
+        
+            <footer>
+                <hr>
+                <div class="footer-section flex justify-between items-center">
+                    <div class="footer-section__item text-12 text-black">© 2023 AILOG.</div>
+                    <a href="#" class="footer-section__item">
+                        <img src="../assets/img/GitHub.svg" alt="">
+                    </a>
+                    <a href="#" class="footer-section__item btn flex">
+                        <img src="../assets/img/Vector.svg">
+                        <span class="text-white ml-2">Наверх</span>
+                    </a>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+</body>
+</html>
